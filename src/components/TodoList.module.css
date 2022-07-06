@@ -1,0 +1,31 @@
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  width: 95%;
+  border-bottom: solid #cccccc 1px;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.list span {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.list input {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.list .finished {
+  text-decoration: line-through;
+}
+
+.error-msg {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #e33b3b;
+}

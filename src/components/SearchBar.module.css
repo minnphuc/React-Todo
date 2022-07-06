@@ -1,0 +1,42 @@
+.control {
+  width: 100%;
+  height: max-content;
+  padding-left: 4rem;
+}
+
+.control div {
+  display: flex;
+  align-items: center;
+}
+
+.control input {
+  font-size: 1.5rem;
+  width: 80%;
+  border-radius: 0.8rem;
+  border: solid #cccccc 1px;
+  padding: 1rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 300ms ease;
+}
+
+.control button {
+  border: none;
+  border-radius: 0 0.8rem 0.8rem 0;
+  cursor: pointer;
+  margin-left: -4.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 4px 4px 12px;
+  transition: opacity 300ms ease;
+}
+
+.control img {
+  width: 3.25rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 3px 3px 15px 1px #74b9ff;
+}
+
+button:hover {
+  opacity: 0.5;
+}

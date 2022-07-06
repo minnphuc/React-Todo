@@ -1,0 +1,46 @@
+.action-bar {
+  width: fit-container;
+  height: min-content;
+  padding: 1rem 2rem;
+  background-color: #f4fce8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  color: rgb(115, 110, 110);
+}
+
+.action {
+  width: 17rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action img {
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+.action span {
+  border-left: solid #ccc 2px;
+  padding-left: 1rem;
+}
+
+.filter {
+  width: 26rem;
+}
+
+.filter__button {
+  display: inline-block;
+  margin: 0 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+}
+
+.filter__button--active {
+  border: solid 1px tomato;
+  border-radius: 10px;
+  font-weight: bold;
+}
