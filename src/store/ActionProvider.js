@@ -7,7 +7,6 @@ const defaultAction = {
   filterMode: false,
   queryValue: "",
   filteredValue: "",
-  dispatch: () => {},
 };
 
 const actionReducer = (state, action) => {
