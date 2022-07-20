@@ -32,7 +32,7 @@
   width: 3.25rem;
 }
 
-input:focus {
+.control input:focus {
   outline: none;
   box-shadow: 3px 3px 15px 1px #74b9ff;
 }

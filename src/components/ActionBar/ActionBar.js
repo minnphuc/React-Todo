@@ -25,7 +25,6 @@ function ActionBar(props) {
       <Filter
         class={classes.filter__button}
         activeClass={classes["filter__button--active"]}
-        onFilter={props.onFilter}
       />
     </footer>
   );
